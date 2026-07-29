@@ -1,0 +1,453 @@
+@prefix wp: <https://w3id.org/worldproof/ai4i#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+wp:obs1 wp:air_temp_K 2.981e+02 ;
+    wp:observedItem wp:M14860 ;
+    wp:process_temp_K 3.086e+02 ;
+    wp:speed_rpm 1.551e+03 ;
+    wp:tool_wear_min 0e+00 ;
+    wp:torque_Nm 4.28e+01 .
+
+wp:obs10 wp:air_temp_K 2.985e+02 ;
+    wp:observedItem wp:M14869 ;
+    wp:process_temp_K 3.09e+02 ;
+    wp:speed_rpm 1.741e+03 ;
+    wp:tool_wear_min 2.1e+01 ;
+    wp:torque_Nm 2.8e+01 .
+
+wp:obs11 wp:air_temp_K 2.984e+02 ;
+    wp:observedItem wp:H29424 ;
+    wp:process_temp_K 3.089e+02 ;
+    wp:speed_rpm 1.782e+03 ;
+    wp:tool_wear_min 2.4e+01 ;
+    wp:torque_Nm 2.39e+01 .
+
+wp:obs12 wp:air_temp_K 2.986e+02 ;
+    wp:observedItem wp:H29425 ;
+    wp:process_temp_K 3.091e+02 ;
+    wp:speed_rpm 1.423e+03 ;
+    wp:tool_wear_min 2.9e+01 ;
+    wp:torque_Nm 4.43e+01 .
+
+wp:obs13 wp:air_temp_K 2.986e+02 ;
+    wp:observedItem wp:M14872 ;
+    wp:process_temp_K 3.091e+02 ;
+    wp:speed_rpm 1.339e+03 ;
+    wp:tool_wear_min 3.4e+01 ;
+    wp:torque_Nm 5.11e+01 .
+
+wp:obs14 wp:air_temp_K 2.986e+02 ;
+    wp:observedItem wp:M14873 ;
+    wp:process_temp_K 3.092e+02 ;
+    wp:speed_rpm 1.742e+03 ;
+    wp:tool_wear_min 3.7e+01 ;
+    wp:torque_Nm 3e+01 .
+
+wp:obs15 wp:air_temp_K 2.986e+02 ;
+    wp:observedItem wp:L47194 ;
+    wp:process_temp_K 3.092e+02 ;
+    wp:speed_rpm 2.035e+03 ;
+    wp:tool_wear_min 4e+01 ;
+    wp:torque_Nm 1.96e+01 .
+
+wp:obs16 wp:air_temp_K 2.986e+02 ;
+    wp:observedItem wp:L47195 ;
+    wp:process_temp_K 3.092e+02 ;
+    wp:speed_rpm 1.542e+03 ;
+    wp:tool_wear_min 4.2e+01 ;
+    wp:torque_Nm 4.84e+01 .
+
+wp:obs17 wp:air_temp_K 2.986e+02 ;
+    wp:observedItem wp:M14876 ;
+    wp:process_temp_K 3.092e+02 ;
+    wp:speed_rpm 1.311e+03 ;
+    wp:tool_wear_min 4.4e+01 ;
+    wp:torque_Nm 4.66e+01 .
+
+wp:obs18 wp:air_temp_K 2.987e+02 ;
+    wp:observedItem wp:M14877 ;
+    wp:process_temp_K 3.092e+02 ;
+    wp:speed_rpm 1.41e+03 ;
+    wp:tool_wear_min 4.7e+01 ;
+    wp:torque_Nm 4.56e+01 .
+
+wp:obs19 wp:air_temp_K 2.988e+02 ;
+    wp:observedItem wp:H29432 ;
+    wp:process_temp_K 3.092e+02 ;
+    wp:speed_rpm 1.306e+03 ;
+    wp:tool_wear_min 5e+01 ;
+    wp:torque_Nm 5.45e+01 .
+
+wp:obs2 wp:air_temp_K 2.982e+02 ;
+    wp:observedItem wp:L47181 ;
+    wp:process_temp_K 3.087e+02 ;
+    wp:speed_rpm 1.408e+03 ;
+    wp:tool_wear_min 3e+00 ;
+    wp:torque_Nm 4.63e+01 .
+
+wp:obs20 wp:air_temp_K 2.989e+02 ;
+    wp:observedItem wp:M14879 ;
+    wp:process_temp_K 3.093e+02 ;
+    wp:speed_rpm 1.632e+03 ;
+    wp:tool_wear_min 5.5e+01 ;
+    wp:torque_Nm 3.25e+01 .
+
+wp:obs21 wp:air_temp_K 2.989e+02 ;
+    wp:observedItem wp:H29434 ;
+    wp:process_temp_K 3.093e+02 ;
+    wp:speed_rpm 1.375e+03 ;
+    wp:tool_wear_min 5.8e+01 ;
+    wp:torque_Nm 4.27e+01 .
+
+wp:obs22 wp:air_temp_K 2.988e+02 ;
+    wp:observedItem wp:L47201 ;
+    wp:process_temp_K 3.093e+02 ;
+    wp:speed_rpm 1.45e+03 ;
+    wp:tool_wear_min 6.3e+01 ;
+    wp:torque_Nm 4.48e+01 .
+
+wp:obs23 wp:air_temp_K 2.989e+02 ;
+    wp:observedItem wp:M14882 ;
+    wp:process_temp_K 3.093e+02 ;
+    wp:speed_rpm 1.581e+03 ;
+    wp:tool_wear_min 6.5e+01 ;
+    wp:torque_Nm 3.07e+01 .
+
+wp:obs24 wp:air_temp_K 2.99e+02 ;
+    wp:observedItem wp:L47203 ;
+    wp:process_temp_K 3.094e+02 ;
+    wp:speed_rpm 1.758e+03 ;
+    wp:tool_wear_min 6.8e+01 ;
+    wp:torque_Nm 2.57e+01 .
+
+wp:obs25 wp:air_temp_K 2.99e+02 ;
+    wp:observedItem wp:M14884 ;
+    wp:process_temp_K 3.094e+02 ;
+    wp:speed_rpm 1.561e+03 ;
+    wp:tool_wear_min 7e+01 ;
+    wp:torque_Nm 3.73e+01 .
+
+wp:obs26 wp:air_temp_K 2.99e+02 ;
+    wp:observedItem wp:L47205 ;
+    wp:process_temp_K 3.095e+02 ;
+    wp:speed_rpm 1.861e+03 ;
+    wp:tool_wear_min 7.3e+01 ;
+    wp:torque_Nm 2.33e+01 .
+
+wp:obs27 wp:air_temp_K 2.991e+02 ;
+    wp:observedItem wp:L47206 ;
+    wp:process_temp_K 3.095e+02 ;
+    wp:speed_rpm 1.512e+03 ;
+    wp:tool_wear_min 7.5e+01 ;
+    wp:torque_Nm 3.9e+01 .
+
+wp:obs28 wp:air_temp_K 2.991e+02 ;
+    wp:observedItem wp:H29441 ;
+    wp:process_temp_K 3.094e+02 ;
+    wp:speed_rpm 1.811e+03 ;
+    wp:tool_wear_min 7.7e+01 ;
+    wp:torque_Nm 2.46e+01 .
+
+wp:obs29 wp:air_temp_K 2.991e+02 ;
+    wp:observedItem wp:L47208 ;
+    wp:process_temp_K 3.094e+02 ;
+    wp:speed_rpm 1.439e+03 ;
+    wp:tool_wear_min 8.2e+01 ;
+    wp:torque_Nm 4.42e+01 .
+
+wp:obs3 wp:air_temp_K 2.981e+02 ;
+    wp:observedItem wp:L47182 ;
+    wp:process_temp_K 3.085e+02 ;
+    wp:speed_rpm 1.498e+03 ;
+    wp:tool_wear_min 5e+00 ;
+    wp:torque_Nm 4.94e+01 .
+
+wp:obs30 wp:air_temp_K 2.99e+02 ;
+    wp:observedItem wp:L47209 ;
+    wp:process_temp_K 3.094e+02 ;
+    wp:speed_rpm 1.693e+03 ;
+    wp:tool_wear_min 8.4e+01 ;
+    wp:torque_Nm 3.01e+01 .
+
+wp:obs31 wp:air_temp_K 2.991e+02 ;
+    wp:observedItem wp:M14890 ;
+    wp:process_temp_K 3.095e+02 ;
+    wp:speed_rpm 1.339e+03 ;
+    wp:tool_wear_min 8.6e+01 ;
+    wp:torque_Nm 4.82e+01 .
+
+wp:obs32 wp:air_temp_K 2.99e+02 ;
+    wp:observedItem wp:L47211 ;
+    wp:process_temp_K 3.094e+02 ;
+    wp:speed_rpm 1.798e+03 ;
+    wp:tool_wear_min 8.9e+01 ;
+    wp:torque_Nm 2.55e+01 .
+
+wp:obs33 wp:air_temp_K 2.99e+02 ;
+    wp:observedItem wp:L47212 ;
+    wp:process_temp_K 3.094e+02 ;
+    wp:speed_rpm 1.419e+03 ;
+    wp:tool_wear_min 9.1e+01 ;
+    wp:torque_Nm 4.83e+01 .
+
+wp:obs34 wp:air_temp_K 2.989e+02 ;
+    wp:observedItem wp:L47213 ;
+    wp:process_temp_K 3.093e+02 ;
+    wp:speed_rpm 1.665e+03 ;
+    wp:tool_wear_min 9.3e+01 ;
+    wp:torque_Nm 3.25e+01 .
+
+wp:obs35 wp:air_temp_K 2.988e+02 ;
+    wp:observedItem wp:M14894 ;
+    wp:process_temp_K 3.091e+02 ;
+    wp:speed_rpm 1.559e+03 ;
+    wp:tool_wear_min 9.5e+01 ;
+    wp:torque_Nm 3.47e+01 .
+
+wp:obs36 wp:air_temp_K 2.988e+02 ;
+    wp:observedItem wp:M14895 ;
+    wp:process_temp_K 3.092e+02 ;
+    wp:speed_rpm 1.452e+03 ;
+    wp:tool_wear_min 9.8e+01 ;
+    wp:torque_Nm 4.86e+01 .
+
+wp:obs37 wp:air_temp_K 2.989e+02 ;
+    wp:observedItem wp:M14896 ;
+    wp:process_temp_K 3.092e+02 ;
+    wp:speed_rpm 1.581e+03 ;
+    wp:tool_wear_min 1.01e+02 ;
+    wp:torque_Nm 3.67e+01 .
+
+wp:obs38 wp:air_temp_K 2.988e+02 ;
+    wp:observedItem wp:L47217 ;
+    wp:process_temp_K 3.091e+02 ;
+    wp:speed_rpm 1.439e+03 ;
+    wp:tool_wear_min 1.04e+02 ;
+    wp:torque_Nm 3.92e+01 .
+
+wp:obs39 wp:air_temp_K 2.989e+02 ;
+    wp:observedItem wp:H29452 ;
+    wp:process_temp_K 3.092e+02 ;
+    wp:speed_rpm 1.379e+03 ;
+    wp:tool_wear_min 1.06e+02 ;
+    wp:torque_Nm 5.07e+01 .
+
+wp:obs4 wp:air_temp_K 2.982e+02 ;
+    wp:observedItem wp:L47183 ;
+    wp:process_temp_K 3.086e+02 ;
+    wp:speed_rpm 1.433e+03 ;
+    wp:tool_wear_min 7e+00 ;
+    wp:torque_Nm 3.95e+01 .
+
+wp:obs40 wp:air_temp_K 2.988e+02 ;
+    wp:observedItem wp:L47219 ;
+    wp:process_temp_K 3.091e+02 ;
+    wp:speed_rpm 1.35e+03 ;
+    wp:tool_wear_min 1.11e+02 ;
+    wp:torque_Nm 5.25e+01 .
+
+wp:obs41 wp:air_temp_K 2.988e+02 ;
+    wp:observedItem wp:L47220 ;
+    wp:process_temp_K 3.091e+02 ;
+    wp:speed_rpm 1.362e+03 ;
+    wp:tool_wear_min 1.13e+02 ;
+    wp:torque_Nm 4.54e+01 .
+
+wp:obs42 wp:air_temp_K 2.988e+02 ;
+    wp:observedItem wp:L47221 ;
+    wp:process_temp_K 3.091e+02 ;
+    wp:speed_rpm 1.368e+03 ;
+    wp:tool_wear_min 1.15e+02 ;
+    wp:torque_Nm 5.08e+01 .
+
+wp:obs43 wp:air_temp_K 2.988e+02 ;
+    wp:observedItem wp:M14902 ;
+    wp:process_temp_K 3.091e+02 ;
+    wp:speed_rpm 1.368e+03 ;
+    wp:tool_wear_min 1.17e+02 ;
+    wp:torque_Nm 4.91e+01 .
+
+wp:obs44 wp:air_temp_K 2.988e+02 ;
+    wp:observedItem wp:H29457 ;
+    wp:process_temp_K 3.092e+02 ;
+    wp:speed_rpm 1.372e+03 ;
+    wp:tool_wear_min 1.2e+02 ;
+    wp:torque_Nm 4.85e+01 .
+
+wp:obs45 wp:air_temp_K 2.988e+02 ;
+    wp:observedItem wp:M14904 ;
+    wp:process_temp_K 3.091e+02 ;
+    wp:speed_rpm 1.472e+03 ;
+    wp:tool_wear_min 1.25e+02 ;
+    wp:torque_Nm 4.75e+01 .
+
+wp:obs46 wp:air_temp_K 2.988e+02 ;
+    wp:observedItem wp:L47225 ;
+    wp:process_temp_K 3.091e+02 ;
+    wp:speed_rpm 1.489e+03 ;
+    wp:tool_wear_min 1.28e+02 ;
+    wp:torque_Nm 4.91e+01 .
+
+wp:obs47 wp:air_temp_K 2.987e+02 ;
+    wp:observedItem wp:M14906 ;
+    wp:process_temp_K 3.09e+02 ;
+    wp:speed_rpm 1.843e+03 ;
+    wp:tool_wear_min 1.3e+02 ;
+    wp:torque_Nm 2.58e+01 .
+
+wp:obs48 wp:air_temp_K 2.988e+02 ;
+    wp:observedItem wp:L47227 ;
+    wp:process_temp_K 3.091e+02 ;
+    wp:speed_rpm 1.418e+03 ;
+    wp:tool_wear_min 1.33e+02 ;
+    wp:torque_Nm 4.63e+01 .
+
+wp:obs49 wp:air_temp_K 2.988e+02 ;
+    wp:observedItem wp:H29462 ;
+    wp:process_temp_K 3.092e+02 ;
+    wp:speed_rpm 1.425e+03 ;
+    wp:tool_wear_min 1.35e+02 ;
+    wp:torque_Nm 5.39e+01 .
+
+wp:obs5 wp:air_temp_K 2.982e+02 ;
+    wp:observedItem wp:L47184 ;
+    wp:process_temp_K 3.087e+02 ;
+    wp:speed_rpm 1.408e+03 ;
+    wp:tool_wear_min 9e+00 ;
+    wp:torque_Nm 4e+01 .
+
+wp:obs50 wp:air_temp_K 2.989e+02 ;
+    wp:observedItem wp:M14909 ;
+    wp:process_temp_K 3.092e+02 ;
+    wp:speed_rpm 1.412e+03 ;
+    wp:tool_wear_min 1.4e+02 ;
+    wp:torque_Nm 4.41e+01 .
+
+wp:obs6 wp:air_temp_K 2.981e+02 ;
+    wp:observedItem wp:M14865 ;
+    wp:process_temp_K 3.086e+02 ;
+    wp:speed_rpm 1.425e+03 ;
+    wp:tool_wear_min 1.1e+01 ;
+    wp:torque_Nm 4.19e+01 .
+
+wp:obs7 wp:air_temp_K 2.981e+02 ;
+    wp:observedItem wp:L47186 ;
+    wp:process_temp_K 3.086e+02 ;
+    wp:speed_rpm 1.558e+03 ;
+    wp:tool_wear_min 1.4e+01 ;
+    wp:torque_Nm 4.24e+01 .
+
+wp:obs8 wp:air_temp_K 2.981e+02 ;
+    wp:observedItem wp:L47187 ;
+    wp:process_temp_K 3.086e+02 ;
+    wp:speed_rpm 1.527e+03 ;
+    wp:tool_wear_min 1.6e+01 ;
+    wp:torque_Nm 4.02e+01 .
+
+wp:obs9 wp:air_temp_K 2.983e+02 ;
+    wp:observedItem wp:M14868 ;
+    wp:process_temp_K 3.087e+02 ;
+    wp:speed_rpm 1.667e+03 ;
+    wp:tool_wear_min 1.8e+01 ;
+    wp:torque_Nm 2.86e+01 .
+
+wp:H29424 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:H29425 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:H29432 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:H29434 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:H29441 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:H29452 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:H29457 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:H29462 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:L47181 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:L47182 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:L47183 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:L47184 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:L47186 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:L47187 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:L47194 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:L47195 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:L47201 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:L47203 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:L47205 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:L47206 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:L47208 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:L47209 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:L47211 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:L47212 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:L47213 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:L47217 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:L47219 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:L47220 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:L47221 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:L47225 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:L47227 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:M14860 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:M14865 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:M14868 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:M14869 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:M14872 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:M14873 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:M14876 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:M14877 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:M14879 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:M14882 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:M14884 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:M14890 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:M14894 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:M14895 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:M14896 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:M14902 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:M14904 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:M14906 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:M14909 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+

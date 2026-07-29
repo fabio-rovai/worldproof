@@ -1,0 +1,46 @@
+{
+  "TWF": {
+    "label_pos": 46,
+    "pred_pos": 790,
+    "tp": 43,
+    "fp": 747,
+    "fn": 3,
+    "precision": 0.0544,
+    "recall": 0.9348,
+    "f1": 0.1029
+  },
+  "HDF": {
+    "label_pos": 115,
+    "pred_pos": 115,
+    "tp": 115,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "PWF": {
+    "label_pos": 95,
+    "pred_pos": 95,
+    "tp": 95,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "OSF": {
+    "label_pos": 98,
+    "pred_pos": 98,
+    "tp": 98,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "RNF": {
+    "label_pos": 19,
+    "note": "documented random noise; excluded from model"
+  }
+}

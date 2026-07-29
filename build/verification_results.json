@@ -1,0 +1,51 @@
+{
+  "seed": 20261028,
+  "proposals": 330,
+  "injection_mix": {
+    "correct": 0.55,
+    "wrong_mode": 0.2,
+    "fabricated_entity": 0.1,
+    "tampered_evidence": 0.15
+  },
+  "per_injection": {
+    "tampered_evidence": {
+      "n": 53,
+      "accepted": 0,
+      "refuted": 53
+    },
+    "correct": {
+      "n": 178,
+      "accepted": 178,
+      "refuted": 0
+    },
+    "fabricated_entity": {
+      "n": 23,
+      "accepted": 0,
+      "refuted": 23
+    },
+    "wrong_mode": {
+      "n": 76,
+      "accepted": 5,
+      "refuted": 71
+    }
+  },
+  "fault_detection": {
+    "tp": 147,
+    "fp": 0,
+    "fn": 5,
+    "precision": 1.0,
+    "recall": 0.9671
+  },
+  "correct_claims": {
+    "n": 178,
+    "certified": 156,
+    "plausible": 22,
+    "wrongly_refuted": 0
+  },
+  "certificate_coverage": 1.0,
+  "latency_ms": {
+    "p50": 0.001,
+    "p95": 0.0013
+  },
+  "world_model_sha256": "5d72eac6835b430f1717b7628542be60d8d8491de97778c3d0c0f7a1339e25d8"
+}

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it."
+title: "WORLDPROOF: compiled certified world models — industrial maintenance pilot"
+authors:
+  - family-names: Rovai
+    given-names: Fabio
+  - family-names: Kampakis
+    given-names: Stylianos
+version: 0.1.0
+date-released: 2026-07-29
+url: "https://github.com/fabio-rovai/worldproof"
+license: Apache-2.0

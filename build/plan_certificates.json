@@ -1,0 +1,68 @@
+{
+  "at_risk_machines": 1000,
+  "in_failed_state": 329,
+  "capacity_per_shift": 60,
+  "horizon_shifts": 24,
+  "proposed_plan": {
+    "plan_size": 1000,
+    "checks": [
+      {
+        "check": "P1-grounding",
+        "unknown_machines": 0,
+        "pass": true
+      },
+      {
+        "check": "P2-completeness",
+        "missing": 0,
+        "beyond_horizon": 0,
+        "pass": true
+      },
+      {
+        "check": "P3-capacity",
+        "capacity": 60,
+        "overbooked_shifts": {},
+        "pass": true
+      },
+      {
+        "check": "P4-precedence",
+        "last_failed_shift": 5,
+        "last_degraded_shift": 16,
+        "pass": true
+      }
+    ],
+    "verdict": "certified",
+    "world_model_sha256": "5d72eac6835b430f1717b7628542be60d8d8491de97778c3d0c0f7a1339e25d8"
+  },
+  "damaged_plan": {
+    "plan_size": 985,
+    "checks": [
+      {
+        "check": "P1-grounding",
+        "unknown_machines": 1,
+        "pass": false
+      },
+      {
+        "check": "P2-completeness",
+        "missing": 16,
+        "beyond_horizon": 0,
+        "pass": false
+      },
+      {
+        "check": "P3-capacity",
+        "capacity": 60,
+        "overbooked_shifts": {
+          "0": 80
+        },
+        "pass": false
+      },
+      {
+        "check": "P4-precedence",
+        "last_failed_shift": 5,
+        "last_degraded_shift": 16,
+        "pass": true
+      }
+    ],
+    "verdict": "refuted",
+    "world_model_sha256": "5d72eac6835b430f1717b7628542be60d8d8491de97778c3d0c0f7a1339e25d8"
+  }
+}

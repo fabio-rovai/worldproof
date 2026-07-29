@@ -1,0 +1,494 @@
+[
+  {
+    "claim": {
+      "machine": "L47230",
+      "failure_mode": "PWF",
+      "observation_udi": 51
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "machine_resolves": true,
+        "mode_resolves": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": false
+      }
+    ],
+    "verdict": "refuted",
+    "world_model_sha256": "5d72eac6835b430f1717b7628542be60d8d8491de97778c3d0c0f7a1339e25d8",
+    "latency_ms": 0.0045
+  },
+  {
+    "claim": {
+      "machine": "L47249",
+      "failure_mode": "PWF",
+      "observation_udi": 70
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "machine_resolves": true,
+        "mode_resolves": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": true
+      },
+      {
+        "layer": "L3-physics",
+        "invariant_fired": true,
+        "semantics": "deterministic",
+        "pass": true
+      }
+    ],
+    "verdict": "certified",
+    "world_model_sha256": "5d72eac6835b430f1717b7628542be60d8d8491de97778c3d0c0f7a1339e25d8",
+    "latency_ms": 0.0037
+  },
+  {
+    "claim": {
+      "machine": "X93820",
+      "failure_mode": "TWF",
+      "observation_udi": 78
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "machine_resolves": false,
+        "mode_resolves": true,
+        "pass": false
+      }
+    ],
+    "verdict": "refuted",
+    "world_model_sha256": "5d72eac6835b430f1717b7628542be60d8d8491de97778c3d0c0f7a1339e25d8",
+    "latency_ms": 0.0005
+  },
+  {
+    "claim": {
+      "machine": "L47340",
+      "failure_mode": "PWF",
+      "observation_udi": 161
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "machine_resolves": true,
+        "mode_resolves": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": true
+      },
+      {
+        "layer": "L3-physics",
+        "invariant_fired": false,
+        "semantics": "deterministic",
+        "pass": false
+      }
+    ],
+    "verdict": "refuted",
+    "world_model_sha256": "5d72eac6835b430f1717b7628542be60d8d8491de97778c3d0c0f7a1339e25d8",
+    "latency_ms": 0.0024
+  },
+  {
+    "claim": {
+      "machine": "L47341",
+      "failure_mode": "PWF",
+      "observation_udi": 162
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "machine_resolves": true,
+        "mode_resolves": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": true
+      },
+      {
+        "layer": "L3-physics",
+        "invariant_fired": false,
+        "semantics": "deterministic",
+        "pass": false
+      }
+    ],
+    "verdict": "refuted",
+    "world_model_sha256": "5d72eac6835b430f1717b7628542be60d8d8491de97778c3d0c0f7a1339e25d8",
+    "latency_ms": 0.0017
+  },
+  {
+    "claim": {
+      "machine": "X95780",
+      "failure_mode": "PWF",
+      "observation_udi": 169
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "machine_resolves": false,
+        "mode_resolves": true,
+        "pass": false
+      }
+    ],
+    "verdict": "refuted",
+    "world_model_sha256": "5d72eac6835b430f1717b7628542be60d8d8491de97778c3d0c0f7a1339e25d8",
+    "latency_ms": 0.0004
+  },
+  {
+    "claim": {
+      "machine": "M15054",
+      "failure_mode": "TWF",
+      "observation_udi": 195
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "machine_resolves": true,
+        "mode_resolves": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": true
+      },
+      {
+        "layer": "L3-physics",
+        "invariant_fired": false,
+        "semantics": "hazard_window",
+        "pass": false
+      }
+    ],
+    "verdict": "refuted",
+    "world_model_sha256": "5d72eac6835b430f1717b7628542be60d8d8491de97778c3d0c0f7a1339e25d8",
+    "latency_ms": 0.0014
+  },
+  {
+    "claim": {
+      "machine": "M15067",
+      "failure_mode": "PWF",
+      "observation_udi": 208
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "machine_resolves": true,
+        "mode_resolves": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": true
+      },
+      {
+        "layer": "L3-physics",
+        "invariant_fired": true,
+        "semantics": "deterministic",
+        "pass": true
+      }
+    ],
+    "verdict": "certified",
+    "world_model_sha256": "5d72eac6835b430f1717b7628542be60d8d8491de97778c3d0c0f7a1339e25d8",
+    "latency_ms": 0.0013
+  },
+  {
+    "claim": {
+      "machine": "X90927",
+      "failure_mode": "OSF",
+      "observation_udi": 243
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "machine_resolves": false,
+        "mode_resolves": true,
+        "pass": false
+      }
+    ],
+    "verdict": "refuted",
+    "world_model_sha256": "5d72eac6835b430f1717b7628542be60d8d8491de97778c3d0c0f7a1339e25d8",
+    "latency_ms": 0.0003
+  },
+  {
+    "claim": {
+      "machine": "L47428",
+      "failure_mode": "TWF",
+      "observation_udi": 249
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "machine_resolves": true,
+        "mode_resolves": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": true
+      },
+      {
+        "layer": "L3-physics",
+        "invariant_fired": true,
+        "semantics": "hazard_window",
+        "pass": true
+      }
+    ],
+    "verdict": "plausible",
+    "world_model_sha256": "5d72eac6835b430f1717b7628542be60d8d8491de97778c3d0c0f7a1339e25d8",
+    "latency_ms": 0.0014
+  },
+  {
+    "claim": {
+      "machine": "L47429",
+      "failure_mode": "OSF",
+      "observation_udi": 250
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "machine_resolves": true,
+        "mode_resolves": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": true
+      },
+      {
+        "layer": "L3-physics",
+        "invariant_fired": true,
+        "semantics": "deterministic",
+        "pass": true
+      }
+    ],
+    "verdict": "certified",
+    "world_model_sha256": "5d72eac6835b430f1717b7628542be60d8d8491de97778c3d0c0f7a1339e25d8",
+    "latency_ms": 0.0014
+  },
+  {
+    "claim": {
+      "machine": "M15119",
+      "failure_mode": "VBF",
+      "observation_udi": 260
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "machine_resolves": true,
+        "mode_resolves": false,
+        "pass": false
+      }
+    ],
+    "verdict": "refuted",
+    "world_model_sha256": "5d72eac6835b430f1717b7628542be60d8d8491de97778c3d0c0f7a1339e25d8",
+    "latency_ms": 0.0003
+  },
+  {
+    "claim": {
+      "machine": "L47507",
+      "failure_mode": "OSF",
+      "observation_udi": 328
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "machine_resolves": true,
+        "mode_resolves": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": true
+      },
+      {
+        "layer": "L3-physics",
+        "invariant_fired": true,
+        "semantics": "deterministic",
+        "pass": true
+      }
+    ],
+    "verdict": "certified",
+    "world_model_sha256": "5d72eac6835b430f1717b7628542be60d8d8491de97778c3d0c0f7a1339e25d8",
+    "latency_ms": 0.0013
+  },
+  {
+    "claim": {
+      "machine": "L47560",
+      "failure_mode": "PWF",
+      "observation_udi": 381
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "machine_resolves": true,
+        "mode_resolves": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": true
+      },
+      {
+        "layer": "L3-physics",
+        "invariant_fired": true,
+        "semantics": "deterministic",
+        "pass": true
+      }
+    ],
+    "verdict": "certified",
+    "world_model_sha256": "5d72eac6835b430f1717b7628542be60d8d8491de97778c3d0c0f7a1339e25d8",
+    "latency_ms": 0.0012
+  },
+  {
+    "claim": {
+      "machine": "L47622",
+      "failure_mode": "PWF",
+      "observation_udi": 443
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "machine_resolves": true,
+        "mode_resolves": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": true
+      },
+      {
+        "layer": "L3-physics",
+        "invariant_fired": true,
+        "semantics": "deterministic",
+        "pass": true
+      }
+    ],
+    "verdict": "certified",
+    "world_model_sha256": "5d72eac6835b430f1717b7628542be60d8d8491de97778c3d0c0f7a1339e25d8",
+    "latency_ms": 0.0011
+  },
+  {
+    "claim": {
+      "machine": "X95500",
+      "failure_mode": "PWF",
+      "observation_udi": 464
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "machine_resolves": false,
+        "mode_resolves": true,
+        "pass": false
+      }
+    ],
+    "verdict": "refuted",
+    "world_model_sha256": "5d72eac6835b430f1717b7628542be60d8d8491de97778c3d0c0f7a1339e25d8",
+    "latency_ms": 0.0003
+  },
+  {
+    "claim": {
+      "machine": "L47766",
+      "failure_mode": "OSF",
+      "observation_udi": 587
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "machine_resolves": true,
+        "mode_resolves": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": true
+      },
+      {
+        "layer": "L3-physics",
+        "invariant_fired": true,
+        "semantics": "deterministic",
+        "pass": true
+      }
+    ],
+    "verdict": "certified",
+    "world_model_sha256": "5d72eac6835b430f1717b7628542be60d8d8491de97778c3d0c0f7a1339e25d8",
+    "latency_ms": 0.0012
+  },
+  {
+    "claim": {
+      "machine": "L47783",
+      "failure_mode": "HDF",
+      "observation_udi": 604
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "machine_resolves": true,
+        "mode_resolves": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": true
+      },
+      {
+        "layer": "L3-physics",
+        "invariant_fired": false,
+        "semantics": "deterministic",
+        "pass": false
+      }
+    ],
+    "verdict": "refuted",
+    "world_model_sha256": "5d72eac6835b430f1717b7628542be60d8d8491de97778c3d0c0f7a1339e25d8",
+    "latency_ms": 0.0013
+  },
+  {
+    "claim": {
+      "machine": "L47926",
+      "failure_mode": "OSF",
+      "observation_udi": 747
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "machine_resolves": true,
+        "mode_resolves": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": false
+      }
+    ],
+    "verdict": "refuted",
+    "world_model_sha256": "5d72eac6835b430f1717b7628542be60d8d8491de97778c3d0c0f7a1339e25d8",
+    "latency_ms": 0.0009
+  },
+  {
+    "claim": {
+      "machine": "L48027",
+      "failure_mode": "PWF",
+      "observation_udi": 848
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "machine_resolves": true,
+        "mode_resolves": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": false
+      }
+    ],
+    "verdict": "refuted",
+    "world_model_sha256": "5d72eac6835b430f1717b7628542be60d8d8491de97778c3d0c0f7a1339e25d8",
+    "latency_ms": 0.0009
+  }
+]

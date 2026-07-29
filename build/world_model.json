@@ -1,0 +1,143 @@
+{
+  "name": "worldproof-ai4i-v0.1",
+  "grounding": {
+    "ontologies": [
+      {
+        "iri": "https://spec.industrialontologies.org/ontology/core/Core/",
+        "sha256": "a653bcacef50a241aa1696d0d647b60527497cb1f32726f1891a05cbe5cb7638"
+      },
+      {
+        "iri": "https://spec.industrialontologies.org/ontology/maintenance/Maintenance/",
+        "sha256": "1ac077a3f5fccc7510967aab2f8427c2151d00673fd3cbe9f8b45da8b2ed2f97"
+      }
+    ],
+    "dataset": {
+      "name": "AI4I 2020 (UCI 601)",
+      "rows": 10000,
+      "sha256_zip": "f601f14294bcf190f9d720676b7f0aea46a26cde9ab8ebc7b4f8174d9d26b252"
+    },
+    "vocabulary": {
+      "MaintainableMaterialItem": {
+        "iri": "https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem",
+        "label": "maintainable material item"
+      },
+      "DegradedState": {
+        "iri": "https://spec.industrialontologies.org/ontology/construct/DegradedState",
+        "label": "degraded state"
+      },
+      "FailedState": {
+        "iri": "https://spec.industrialontologies.org/ontology/construct/FailedState",
+        "label": "failed state"
+      },
+      "FailureEvent": {
+        "iri": "https://spec.industrialontologies.org/ontology/construct/FailureEvent",
+        "label": "failure event"
+      },
+      "FailureModeCode": {
+        "iri": "https://spec.industrialontologies.org/ontology/construct/FailureModeCode",
+        "label": "failure mode code"
+      },
+      "FailureProcess": {
+        "iri": "https://spec.industrialontologies.org/ontology/construct/FailureProcess",
+        "label": "failure process"
+      },
+      "FunctioningProcess": {
+        "iri": "https://spec.industrialontologies.org/ontology/construct/FunctioningProcess",
+        "label": "functioning process"
+      },
+      "MaintenanceActivity": {
+        "iri": "https://spec.industrialontologies.org/ontology/construct/MaintenanceActivity",
+        "label": "maintenance activity"
+      },
+      "MaintenanceProcess": {
+        "iri": "https://spec.industrialontologies.org/ontology/construct/MaintenanceProcess",
+        "label": "maintenance process"
+      },
+      "OperatingState": {
+        "iri": "https://spec.industrialontologies.org/ontology/construct/OperatingState",
+        "label": "operating state"
+      }
+    }
+  },
+  "state_space": {
+    "machine_id": {
+      "type": "identifier",
+      "iof_type": "MaintainableMaterialItem"
+    },
+    "variant": {
+      "type": "categorical",
+      "values": [
+        "L",
+        "M",
+        "H"
+      ]
+    },
+    "air_temp_K": {
+      "type": "float",
+      "min": 290.0,
+      "max": 310.0
+    },
+    "process_temp_K": {
+      "type": "float",
+      "min": 300.0,
+      "max": 320.0
+    },
+    "speed_rpm": {
+      "type": "float",
+      "min": 1100.0,
+      "max": 3000.0
+    },
+    "torque_Nm": {
+      "type": "float",
+      "min": 3.0,
+      "max": 80.0
+    },
+    "tool_wear_min": {
+      "type": "float",
+      "min": 0.0,
+      "max": 260.0
+    }
+  },
+  "invariants": {
+    "TWF": {
+      "text": "tool wear within 200-240 min replacement window",
+      "state_vars": [
+        "tool_wear_min"
+      ],
+      "semantics": "hazard_window",
+      "iof_type": "https://spec.industrialontologies.org/ontology/construct/FailureEvent"
+    },
+    "HDF": {
+      "text": "air/process temperature delta < 8.6 K at speed < 1380 rpm",
+      "state_vars": [
+        "air_temp_K",
+        "process_temp_K",
+        "speed_rpm"
+      ],
+      "semantics": "deterministic",
+      "iof_type": "https://spec.industrialontologies.org/ontology/construct/FailureEvent"
+    },
+    "PWF": {
+      "text": "mechanical power outside [3500, 9000] W",
+      "state_vars": [
+        "torque_Nm",
+        "speed_rpm"
+      ],
+      "semantics": "deterministic",
+      "iof_type": "https://spec.industrialontologies.org/ontology/construct/FailureEvent"
+    },
+    "OSF": {
+      "text": "tool wear x torque above variant overstrain limit",
+      "state_vars": [
+        "tool_wear_min",
+        "torque_Nm",
+        "variant"
+      ],
+      "semantics": "deterministic",
+      "iof_type": "https://spec.industrialontologies.org/ontology/construct/FailureEvent"
+    }
+  },
+  "noise_model": {
+    "RNF": "0.1% label noise documented in dataset; not claimable as caused"
+  }
+}
