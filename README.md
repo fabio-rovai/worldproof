@@ -49,6 +49,17 @@ IOF ontologies + AI4I 2020 data
   at-risk machines (329 in failed state); the plan verifier certifies it
   against grounding, completeness, capacity and precedence invariants - and
   demonstrably **refutes** a damaged plan, naming the violated checks.
+- **The known LLM-planner failure taxonomy, answered with measurements.**
+  Published planning evaluations report five recurring failure classes for
+  language-model planners. `plan_robustness.py` constructs each and records
+  what the verifier does: **symbol obfuscation** - verdict identical on 30/30
+  fully renamed instances (structural verification cannot memorise surface
+  forms); **incomplete plans** - 5/5 truncations caught, down to 10 dropped
+  activities in 1,000; **hallucinated actions** - 3/3 out-of-vocabulary
+  activities caught; **unsolvability detection** - 4/4 correct, refusing to
+  certify when capacity times horizon falls below demand; **scale** -
+  verification cost stays flat at 0.20 to 0.24 microseconds per activity from
+  1,000 to 10,000 activities.
 
 ## Reproduce it
 

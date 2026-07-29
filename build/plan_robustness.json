@@ -1,0 +1,145 @@
+{
+  "baseline": {
+    "expected": "certified",
+    "verdict": "certified",
+    "correct": true
+  },
+  "symbol_obfuscation": {
+    "trials": 30,
+    "verdict_unchanged": 30,
+    "invariance_rate": 1.0,
+    "note": "verdict must be identical to baseline under total renaming"
+  },
+  "incomplete_plans": {
+    "cases": [
+      {
+        "dropped_frac": 0.01,
+        "dropped": 10,
+        "verdict": "refuted",
+        "caught": true
+      },
+      {
+        "dropped_frac": 0.05,
+        "dropped": 50,
+        "verdict": "refuted",
+        "caught": true
+      },
+      {
+        "dropped_frac": 0.1,
+        "dropped": 100,
+        "verdict": "refuted",
+        "caught": true
+      },
+      {
+        "dropped_frac": 0.25,
+        "dropped": 250,
+        "verdict": "refuted",
+        "caught": true
+      },
+      {
+        "dropped_frac": 0.5,
+        "dropped": 500,
+        "verdict": "refuted",
+        "caught": true
+      }
+    ],
+    "caught": 5,
+    "of": 5
+  },
+  "hallucinated_actions": {
+    "cases": [
+      {
+        "action": "QuantumRecalibration",
+        "in_vocabulary": false,
+        "caught": true
+      },
+      {
+        "action": "SelfHealingCycle",
+        "in_vocabulary": false,
+        "caught": true
+      },
+      {
+        "action": "PredictiveOverhaul",
+        "in_vocabulary": false,
+        "caught": true
+      }
+    ],
+    "caught": 3,
+    "of": 3
+  },
+  "unsolvability": {
+    "cases": [
+      {
+        "capacity": 60,
+        "demand": 1000,
+        "max_schedulable": 1440,
+        "feasible": true,
+        "verdict": "certified",
+        "correct": true
+      },
+      {
+        "capacity": 30,
+        "demand": 1000,
+        "max_schedulable": 720,
+        "feasible": false,
+        "verdict": "refuted",
+        "correct": true
+      },
+      {
+        "capacity": 10,
+        "demand": 1000,
+        "max_schedulable": 240,
+        "feasible": false,
+        "verdict": "refuted",
+        "correct": true
+      },
+      {
+        "capacity": 5,
+        "demand": 1000,
+        "max_schedulable": 120,
+        "feasible": false,
+        "verdict": "refuted",
+        "correct": true
+      }
+    ],
+    "correct": 4,
+    "of": 4
+  },
+  "scale_behaviour": {
+    "cases": [
+      {
+        "scale_x": 1,
+        "activities": 1000,
+        "shifts": 17,
+        "verdict": "certified",
+        "latency_ms": 0.205,
+        "us_per_activity": 0.205
+      },
+      {
+        "scale_x": 2,
+        "activities": 2000,
+        "shifts": 34,
+        "verdict": "refuted",
+        "latency_ms": 0.484,
+        "us_per_activity": 0.242
+      },
+      {
+        "scale_x": 5,
+        "activities": 5000,
+        "shifts": 84,
+        "verdict": "refuted",
+        "latency_ms": 1.164,
+        "us_per_activity": 0.233
+      },
+      {
+        "scale_x": 10,
+        "activities": 10000,
+        "shifts": 167,
+        "verdict": "refuted",
+        "latency_ms": 2.317,
+        "us_per_activity": 0.232
+      }
+    ],
+    "note": "verification cost per activity should stay flat"
+  }
+}
