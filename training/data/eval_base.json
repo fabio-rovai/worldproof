@@ -1,0 +1,17 @@
+{
+  "tag": "base",
+  "model": "mlx-community/Qwen3-Coder-30B-A3B-Instruct-8bit",
+  "adapter": null,
+  "n": 150,
+  "verdicts": {
+    "certified": 7,
+    "plausible": 88,
+    "refuted": 55,
+    "invalid_schema": 0
+  },
+  "accepted_rate": 0.6333,
+  "certified_rate": 0.0467,
+  "schema_valid_rate": 1.0,
+  "gold_mode_accuracy": 0.5533,
+  "minutes": 2.8
+}

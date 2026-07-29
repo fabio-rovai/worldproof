@@ -98,6 +98,7 @@ transfer - is where this is heading.
 ## Case studies
 
 - **[Turbofan degradation](case-studies/turbofan/)** - the same certified-world-model contract transferred to NASA C-MAPSS field-like data: learned hazard-window invariants, measured imperfect fidelity (F1 0.84), fault detection at recall 0.992, and the honest cost of learned invariants quantified (12.5% wrongly-refuted rate, inspectable via certificates).
+- **[Training the proposer](training/)** - the compiled world model writes its own fine-tune curriculum (2,000 real observations + 2,400 synthetic states sampled from the invariant regions and their boundaries) and the symbolic verifier is the evaluation metric, so there is no LLM judge in the loop. A 1,200-iteration LoRA on Qwen3-Coder-30B, 33 minutes on one M3 Max, moves the proposer from 0.5567 to 0.8800 accepted and 0.5067 to 0.8300 gold-mode accuracy on 300 held-out real observations - with the caveat, stated there in full, that this measures conformance to the world model rather than independent real-world truth.
 
 ## Lineage
 

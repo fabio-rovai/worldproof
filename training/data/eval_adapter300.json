@@ -1,0 +1,17 @@
+{
+  "tag": "adapter300",
+  "model": "mlx-community/Qwen3-Coder-30B-A3B-Instruct-8bit",
+  "adapter": "adapters",
+  "n": 300,
+  "verdicts": {
+    "certified": 109,
+    "plausible": 155,
+    "refuted": 36,
+    "invalid_schema": 0
+  },
+  "accepted_rate": 0.88,
+  "certified_rate": 0.3633,
+  "schema_valid_rate": 1.0,
+  "gold_mode_accuracy": 0.83,
+  "minutes": 6.4
+}

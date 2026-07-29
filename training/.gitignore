@@ -1,0 +1,9 @@
+adapters/
+data/mlx/
+*.jsonl
+*.safetensors
+.venv/
+__pycache__/
+train.log
+night.log
+*.log
