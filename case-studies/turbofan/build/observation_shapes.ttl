@@ -1,0 +1,25 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wp: <https://w3id.org/worldproof/cmapss#> .
+
+wp:ObservationShape a sh:NodeShape ;
+    sh:targetSubjectsOf wp:observedItem ;
+    sh:property [ sh:path wp:cycle ; sh:minCount 1 ; sh:maxCount 1 ;
+        sh:datatype xsd:integer ; sh:minInclusive 1 ] ;
+    sh:property [ sh:path wp:s11 ; sh:minCount 1 ; sh:maxCount 1 ;
+        sh:datatype xsd:double ; sh:minInclusive 46.8164 ; sh:maxInclusive 48.5636 ] ;
+    sh:property [ sh:path wp:s12 ; sh:minCount 1 ; sh:maxCount 1 ;
+        sh:datatype xsd:double ; sh:minInclusive 518.5962 ; sh:maxInclusive 523.4738 ] ;
+    sh:property [ sh:path wp:s4 ; sh:minCount 1 ; sh:maxCount 1 ;
+        sh:datatype xsd:double ; sh:minInclusive 1381.1158 ; sh:maxInclusive 1440.0942 ] ;
+    sh:property [ sh:path wp:s7 ; sh:minCount 1 ; sh:maxCount 1 ;
+        sh:datatype xsd:double ; sh:minInclusive 549.7258 ; sh:maxInclusive 556.1842 ] ;
+    sh:property [ sh:path wp:s15 ; sh:minCount 1 ; sh:maxCount 1 ;
+        sh:datatype xsd:double ; sh:minInclusive 8.3197 ; sh:maxInclusive 8.59 ] ;
+    sh:property [ sh:path wp:s21 ; sh:minCount 1 ; sh:maxCount 1 ;
+        sh:datatype xsd:double ; sh:minInclusive 22.893 ; sh:maxInclusive 23.6268 ] ;
+    sh:property [ sh:path wp:s20 ; sh:minCount 1 ; sh:maxCount 1 ;
+        sh:datatype xsd:double ; sh:minInclusive 38.1142 ; sh:maxInclusive 39.4558 ] ;
+    sh:property [ sh:path wp:s13 ; sh:minCount 1 ; sh:maxCount 1 ;
+        sh:datatype xsd:double ; sh:minInclusive 2387.8664 ; sh:maxInclusive 2388.5736 ] ;
+    .

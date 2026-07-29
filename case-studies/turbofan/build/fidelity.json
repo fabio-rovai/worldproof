@@ -1,0 +1,45 @@
+{
+  "eol_window_cycles": 30,
+  "theta": 0.8766,
+  "EOL30_holdout": {
+    "n_cycles": 6440,
+    "positives": 930,
+    "tp": 814,
+    "fp": 192,
+    "fn": 116,
+    "precision": 0.8091,
+    "recall": 0.8753,
+    "f1": 0.8409
+  },
+  "EOL30_calibration_fit": {
+    "n_cycles": 14191,
+    "positives": 2170,
+    "tp": 1775,
+    "fp": 413,
+    "fn": 395,
+    "precision": 0.8112,
+    "recall": 0.818,
+    "f1": 0.8146
+  },
+  "EOL30_test_final_cycles": {
+    "n_engines": 100,
+    "positives": 25,
+    "tp": 18,
+    "fp": 2,
+    "fn": 7,
+    "precision": 0.9,
+    "recall": 0.72,
+    "f1": 0.8
+  },
+  "deterministic": {
+    "cycle_monotone": {
+      "engines_pass": 100,
+      "engines_total": 100
+    },
+    "sensor_range_holdout": {
+      "cycles_in_range": 6439,
+      "cycles_total": 6440,
+      "coverage": 0.9998
+    }
+  }
+}

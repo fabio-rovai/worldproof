@@ -1,0 +1,52 @@
+{
+  "seed": 20261028,
+  "proposals": 300,
+  "injection_mix": {
+    "correct": 0.55,
+    "wrong_window": 0.2,
+    "fabricated_entity": 0.1,
+    "tampered_evidence": 0.15
+  },
+  "per_injection": {
+    "tampered_evidence": {
+      "n": 41,
+      "accepted": 0,
+      "refuted": 41
+    },
+    "correct": {
+      "n": 176,
+      "accepted": 154,
+      "refuted": 22
+    },
+    "wrong_window": {
+      "n": 54,
+      "accepted": 1,
+      "refuted": 53
+    },
+    "fabricated_entity": {
+      "n": 29,
+      "accepted": 0,
+      "refuted": 29
+    }
+  },
+  "fault_detection": {
+    "tp": 123,
+    "fp": 22,
+    "fn": 1,
+    "precision": 0.8483,
+    "recall": 0.9919
+  },
+  "correct_claims": {
+    "n": 176,
+    "certified": 0,
+    "plausible": 154,
+    "wrongly_refuted": 22,
+    "note": "certified unreachable by design: the EOL30 invariant is learned (hazard_window), never deterministic"
+  },
+  "certificate_coverage": 1.0,
+  "latency_ms": {
+    "p50": 0.119,
+    "p95": 0.2361
+  },
+  "world_model_sha256": "d2cac582bc404296b3f462c0d589ec3f8d460fc2c71d5a713c6998376752ee5c"
+}

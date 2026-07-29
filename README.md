@@ -84,6 +84,10 @@ The research programme that scales this - ontology-to-model compilation,
 neural proposers, formal soundness of the certificate calculus, cross-domain
 transfer - is where this is heading.
 
+## Case studies
+
+- **[Turbofan degradation](case-studies/turbofan/)** - the same certified-world-model contract transferred to NASA C-MAPSS field-like data: learned hazard-window invariants, measured imperfect fidelity (F1 0.84), fault detection at recall 0.992, and the honest cost of learned invariants quantified (12.5% wrongly-refuted rate, inspectable via certificates).
+
 ## Lineage
 
 Built on [open-ontologies](https://github.com/fabio-rovai/open-ontologies)

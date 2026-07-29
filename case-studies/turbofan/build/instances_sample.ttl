@@ -1,0 +1,771 @@
+@prefix wp: <https://w3id.org/worldproof/cmapss#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+wp:failedstate_u1 a <https://spec.industrialontologies.org/ontology/construct/FailedState> ;
+    wp:stateOf wp:engine1 .
+
+wp:failedstate_u5 a <https://spec.industrialontologies.org/ontology/construct/FailedState> ;
+    wp:stateOf wp:engine5 .
+
+wp:failure_u1 a <https://spec.industrialontologies.org/ontology/construct/FailureEvent> ;
+    wp:atCycle 192 ;
+    wp:failedItem wp:engine1 .
+
+wp:failure_u5 a <https://spec.industrialontologies.org/ontology/construct/FailureEvent> ;
+    wp:atCycle 269 ;
+    wp:failedItem wp:engine5 .
+
+wp:state_u1_c168 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u1_c168 ;
+    wp:stateOf wp:engine1 .
+
+wp:state_u1_c169 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u1_c169 ;
+    wp:stateOf wp:engine1 .
+
+wp:state_u1_c170 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u1_c170 ;
+    wp:stateOf wp:engine1 .
+
+wp:state_u1_c171 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u1_c171 ;
+    wp:stateOf wp:engine1 .
+
+wp:state_u1_c172 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u1_c172 ;
+    wp:stateOf wp:engine1 .
+
+wp:state_u1_c173 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u1_c173 ;
+    wp:stateOf wp:engine1 .
+
+wp:state_u1_c174 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u1_c174 ;
+    wp:stateOf wp:engine1 .
+
+wp:state_u1_c175 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u1_c175 ;
+    wp:stateOf wp:engine1 .
+
+wp:state_u1_c176 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u1_c176 ;
+    wp:stateOf wp:engine1 .
+
+wp:state_u1_c177 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u1_c177 ;
+    wp:stateOf wp:engine1 .
+
+wp:state_u1_c178 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u1_c178 ;
+    wp:stateOf wp:engine1 .
+
+wp:state_u1_c179 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u1_c179 ;
+    wp:stateOf wp:engine1 .
+
+wp:state_u1_c180 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u1_c180 ;
+    wp:stateOf wp:engine1 .
+
+wp:state_u1_c181 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u1_c181 ;
+    wp:stateOf wp:engine1 .
+
+wp:state_u1_c182 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u1_c182 ;
+    wp:stateOf wp:engine1 .
+
+wp:state_u1_c183 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u1_c183 ;
+    wp:stateOf wp:engine1 .
+
+wp:state_u1_c184 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u1_c184 ;
+    wp:stateOf wp:engine1 .
+
+wp:state_u1_c185 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u1_c185 ;
+    wp:stateOf wp:engine1 .
+
+wp:state_u1_c186 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u1_c186 ;
+    wp:stateOf wp:engine1 .
+
+wp:state_u1_c187 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u1_c187 ;
+    wp:stateOf wp:engine1 .
+
+wp:state_u1_c188 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u1_c188 ;
+    wp:stateOf wp:engine1 .
+
+wp:state_u1_c189 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u1_c189 ;
+    wp:stateOf wp:engine1 .
+
+wp:state_u1_c190 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u1_c190 ;
+    wp:stateOf wp:engine1 .
+
+wp:state_u1_c191 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u1_c191 ;
+    wp:stateOf wp:engine1 .
+
+wp:state_u1_c192 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u1_c192 ;
+    wp:stateOf wp:engine1 .
+
+wp:state_u5_c245 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u5_c245 ;
+    wp:stateOf wp:engine5 .
+
+wp:state_u5_c246 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u5_c246 ;
+    wp:stateOf wp:engine5 .
+
+wp:state_u5_c247 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u5_c247 ;
+    wp:stateOf wp:engine5 .
+
+wp:state_u5_c248 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u5_c248 ;
+    wp:stateOf wp:engine5 .
+
+wp:state_u5_c249 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u5_c249 ;
+    wp:stateOf wp:engine5 .
+
+wp:state_u5_c250 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u5_c250 ;
+    wp:stateOf wp:engine5 .
+
+wp:state_u5_c251 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u5_c251 ;
+    wp:stateOf wp:engine5 .
+
+wp:state_u5_c252 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u5_c252 ;
+    wp:stateOf wp:engine5 .
+
+wp:state_u5_c253 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u5_c253 ;
+    wp:stateOf wp:engine5 .
+
+wp:state_u5_c254 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u5_c254 ;
+    wp:stateOf wp:engine5 .
+
+wp:state_u5_c255 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u5_c255 ;
+    wp:stateOf wp:engine5 .
+
+wp:state_u5_c256 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u5_c256 ;
+    wp:stateOf wp:engine5 .
+
+wp:state_u5_c257 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u5_c257 ;
+    wp:stateOf wp:engine5 .
+
+wp:state_u5_c258 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u5_c258 ;
+    wp:stateOf wp:engine5 .
+
+wp:state_u5_c259 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u5_c259 ;
+    wp:stateOf wp:engine5 .
+
+wp:state_u5_c260 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u5_c260 ;
+    wp:stateOf wp:engine5 .
+
+wp:state_u5_c261 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u5_c261 ;
+    wp:stateOf wp:engine5 .
+
+wp:state_u5_c262 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u5_c262 ;
+    wp:stateOf wp:engine5 .
+
+wp:state_u5_c263 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u5_c263 ;
+    wp:stateOf wp:engine5 .
+
+wp:state_u5_c264 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u5_c264 ;
+    wp:stateOf wp:engine5 .
+
+wp:state_u5_c265 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u5_c265 ;
+    wp:stateOf wp:engine5 .
+
+wp:state_u5_c266 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u5_c266 ;
+    wp:stateOf wp:engine5 .
+
+wp:state_u5_c267 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u5_c267 ;
+    wp:stateOf wp:engine5 .
+
+wp:state_u5_c268 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u5_c268 ;
+    wp:stateOf wp:engine5 .
+
+wp:state_u5_c269 a <https://spec.industrialontologies.org/ontology/construct/DegradedState> ;
+    wp:evidencedBy wp:obs_u5_c269 ;
+    wp:stateOf wp:engine5 .
+
+wp:obs_u1_c168 wp:cycle 168 ;
+    wp:observedItem wp:engine1 ;
+    wp:s11 4.784e+01 ;
+    wp:s12 5.2078e+02 ;
+    wp:s13 2.38819e+03 ;
+    wp:s15 8.4925e+00 ;
+    wp:s20 3.876e+01 ;
+    wp:s21 2.3277e+01 ;
+    wp:s4 1.4157e+03 ;
+    wp:s7 5.5209e+02 .
+
+wp:obs_u1_c169 wp:cycle 169 ;
+    wp:observedItem wp:engine1 ;
+    wp:s11 4.788e+01 ;
+    wp:s12 5.2044e+02 ;
+    wp:s13 2.38818e+03 ;
+    wp:s15 8.4767e+00 ;
+    wp:s20 3.858e+01 ;
+    wp:s21 2.3187e+01 ;
+    wp:s4 1.41805e+03 ;
+    wp:s7 5.5271e+02 .
+
+wp:obs_u1_c170 wp:cycle 170 ;
+    wp:observedItem wp:engine1 ;
+    wp:s11 4.786e+01 ;
+    wp:s12 5.2023e+02 ;
+    wp:s13 2.38826e+03 ;
+    wp:s15 8.49e+00 ;
+    wp:s20 3.866e+01 ;
+    wp:s21 2.31615e+01 ;
+    wp:s4 1.41741e+03 ;
+    wp:s7 5.5202e+02 .
+
+wp:obs_u1_c171 wp:cycle 171 ;
+    wp:observedItem wp:engine1 ;
+    wp:s11 4.803e+01 ;
+    wp:s12 5.1985e+02 ;
+    wp:s13 2.38822e+03 ;
+    wp:s15 8.4922e+00 ;
+    wp:s20 3.868e+01 ;
+    wp:s21 2.32444e+01 ;
+    wp:s4 1.41499e+03 ;
+    wp:s7 5.5271e+02 .
+
+wp:obs_u1_c172 wp:cycle 172 ;
+    wp:observedItem wp:engine1 ;
+    wp:s11 4.807e+01 ;
+    wp:s12 5.2054e+02 ;
+    wp:s13 2.38826e+03 ;
+    wp:s15 8.4595e+00 ;
+    wp:s20 3.865e+01 ;
+    wp:s21 2.31585e+01 ;
+    wp:s4 1.41373e+03 ;
+    wp:s7 5.5169e+02 .
+
+wp:obs_u1_c173 wp:cycle 173 ;
+    wp:observedItem wp:engine1 ;
+    wp:s11 4.79e+01 ;
+    wp:s12 5.2011e+02 ;
+    wp:s13 2.38823e+03 ;
+    wp:s15 8.5091e+00 ;
+    wp:s20 3.859e+01 ;
+    wp:s21 2.31789e+01 ;
+    wp:s4 1.42527e+03 ;
+    wp:s7 5.5213e+02 .
+
+wp:obs_u1_c174 wp:cycle 174 ;
+    wp:observedItem wp:engine1 ;
+    wp:s11 4.8e+01 ;
+    wp:s12 5.2022e+02 ;
+    wp:s13 2.38821e+03 ;
+    wp:s15 8.4476e+00 ;
+    wp:s20 3.857e+01 ;
+    wp:s21 2.30357e+01 ;
+    wp:s4 1.42258e+03 ;
+    wp:s7 5.5232e+02 .
+
+wp:obs_u1_c175 wp:cycle 175 ;
+    wp:observedItem wp:engine1 ;
+    wp:s11 4.786e+01 ;
+    wp:s12 5.2038e+02 ;
+    wp:s13 2.38822e+03 ;
+    wp:s15 8.489e+00 ;
+    wp:s20 3.858e+01 ;
+    wp:s21 2.31573e+01 ;
+    wp:s4 1.42252e+03 ;
+    wp:s7 5.5164e+02 .
+
+wp:obs_u1_c176 wp:cycle 176 ;
+    wp:observedItem wp:engine1 ;
+    wp:s11 4.784e+01 ;
+    wp:s12 5.198e+02 ;
+    wp:s13 2.3882e+03 ;
+    wp:s15 8.4853e+00 ;
+    wp:s20 3.872e+01 ;
+    wp:s21 2.32491e+01 ;
+    wp:s4 1.42273e+03 ;
+    wp:s7 5.5191e+02 .
+
+wp:obs_u1_c177 wp:cycle 177 ;
+    wp:observedItem wp:engine1 ;
+    wp:s11 4.803e+01 ;
+    wp:s12 5.2024e+02 ;
+    wp:s13 2.38823e+03 ;
+    wp:s15 8.4779e+00 ;
+    wp:s20 3.863e+01 ;
+    wp:s21 2.31673e+01 ;
+    wp:s4 1.42399e+03 ;
+    wp:s7 5.5193e+02 .
+
+wp:obs_u1_c178 wp:cycle 178 ;
+    wp:observedItem wp:engine1 ;
+    wp:s11 4.8e+01 ;
+    wp:s12 5.202e+02 ;
+    wp:s13 2.3882e+03 ;
+    wp:s15 8.477e+00 ;
+    wp:s20 3.865e+01 ;
+    wp:s21 2.3177e+01 ;
+    wp:s4 1.42465e+03 ;
+    wp:s7 5.5218e+02 .
+
+wp:obs_u1_c179 wp:cycle 179 ;
+    wp:observedItem wp:engine1 ;
+    wp:s11 4.802e+01 ;
+    wp:s12 5.2038e+02 ;
+    wp:s13 2.38818e+03 ;
+    wp:s15 8.4947e+00 ;
+    wp:s20 3.877e+01 ;
+    wp:s21 2.31888e+01 ;
+    wp:s4 1.42945e+03 ;
+    wp:s7 5.5157e+02 .
+
+wp:obs_u1_c180 wp:cycle 180 ;
+    wp:observedItem wp:engine1 ;
+    wp:s11 4.785e+01 ;
+    wp:s12 5.1984e+02 ;
+    wp:s13 2.38828e+03 ;
+    wp:s15 8.4737e+00 ;
+    wp:s20 3.886e+01 ;
+    wp:s21 2.3007e+01 ;
+    wp:s4 1.41714e+03 ;
+    wp:s7 5.5291e+02 .
+
+wp:obs_u1_c181 wp:cycle 181 ;
+    wp:observedItem wp:engine1 ;
+    wp:s11 4.81e+01 ;
+    wp:s12 5.2043e+02 ;
+    wp:s13 2.38823e+03 ;
+    wp:s15 8.472e+00 ;
+    wp:s20 3.834e+01 ;
+    wp:s21 2.31652e+01 ;
+    wp:s4 1.42064e+03 ;
+    wp:s7 5.5183e+02 .
+
+wp:obs_u1_c182 wp:cycle 182 ;
+    wp:observedItem wp:engine1 ;
+    wp:s11 4.798e+01 ;
+    wp:s12 5.2046e+02 ;
+    wp:s13 2.38825e+03 ;
+    wp:s15 8.5158e+00 ;
+    wp:s20 3.843e+01 ;
+    wp:s21 2.31787e+01 ;
+    wp:s4 1.42662e+03 ;
+    wp:s7 5.519e+02 .
+
+wp:obs_u1_c183 wp:cycle 183 ;
+    wp:observedItem wp:engine1 ;
+    wp:s11 4.803e+01 ;
+    wp:s12 5.2005e+02 ;
+    wp:s13 2.38823e+03 ;
+    wp:s15 8.5041e+00 ;
+    wp:s20 3.856e+01 ;
+    wp:s21 2.31302e+01 ;
+    wp:s4 1.41903e+03 ;
+    wp:s7 5.5138e+02 .
+
+wp:obs_u1_c184 wp:cycle 184 ;
+    wp:observedItem wp:engine1 ;
+    wp:s11 4.807e+01 ;
+    wp:s12 5.1977e+02 ;
+    wp:s13 2.38828e+03 ;
+    wp:s15 8.5133e+00 ;
+    wp:s20 3.843e+01 ;
+    wp:s21 2.30146e+01 ;
+    wp:s4 1.43252e+03 ;
+    wp:s7 5.51e+02 .
+
+wp:obs_u1_c185 wp:cycle 185 ;
+    wp:observedItem wp:engine1 ;
+    wp:s11 4.815e+01 ;
+    wp:s12 5.1982e+02 ;
+    wp:s13 2.38827e+03 ;
+    wp:s15 8.4984e+00 ;
+    wp:s20 3.851e+01 ;
+    wp:s21 2.307e+01 ;
+    wp:s4 1.4244e+03 ;
+    wp:s7 5.5164e+02 .
+
+wp:obs_u1_c186 wp:cycle 186 ;
+    wp:observedItem wp:engine1 ;
+    wp:s11 4.812e+01 ;
+    wp:s12 5.2008e+02 ;
+    wp:s13 2.38825e+03 ;
+    wp:s15 8.5227e+00 ;
+    wp:s20 3.847e+01 ;
+    wp:s21 2.30564e+01 ;
+    wp:s4 1.4263e+03 ;
+    wp:s7 5.5257e+02 .
+
+wp:obs_u1_c187 wp:cycle 187 ;
+    wp:observedItem wp:engine1 ;
+    wp:s11 4.823e+01 ;
+    wp:s12 5.1953e+02 ;
+    wp:s13 2.38828e+03 ;
+    wp:s15 8.5218e+00 ;
+    wp:s20 3.842e+01 ;
+    wp:s21 2.30822e+01 ;
+    wp:s4 1.42727e+03 ;
+    wp:s7 5.5108e+02 .
+
+wp:obs_u1_c188 wp:cycle 188 ;
+    wp:observedItem wp:engine1 ;
+    wp:s11 4.8e+01 ;
+    wp:s12 5.1979e+02 ;
+    wp:s13 2.38823e+03 ;
+    wp:s15 8.5207e+00 ;
+    wp:s20 3.851e+01 ;
+    wp:s21 2.29588e+01 ;
+    wp:s4 1.42278e+03 ;
+    wp:s7 5.5194e+02 .
+
+wp:obs_u1_c189 wp:cycle 189 ;
+    wp:observedItem wp:engine1 ;
+    wp:s11 4.808e+01 ;
+    wp:s12 5.1958e+02 ;
+    wp:s13 2.38833e+03 ;
+    wp:s15 8.5183e+00 ;
+    wp:s20 3.848e+01 ;
+    wp:s21 2.31127e+01 ;
+    wp:s4 1.42801e+03 ;
+    wp:s7 5.507e+02 .
+
+wp:obs_u1_c190 wp:cycle 190 ;
+    wp:observedItem wp:engine1 ;
+    wp:s11 4.833e+01 ;
+    wp:s12 5.2004e+02 ;
+    wp:s13 2.38835e+03 ;
+    wp:s15 8.5223e+00 ;
+    wp:s20 3.849e+01 ;
+    wp:s21 2.30675e+01 ;
+    wp:s4 1.42595e+03 ;
+    wp:s7 5.5129e+02 .
+
+wp:obs_u1_c191 wp:cycle 191 ;
+    wp:observedItem wp:engine1 ;
+    wp:s11 4.815e+01 ;
+    wp:s12 5.1957e+02 ;
+    wp:s13 2.3883e+03 ;
+    wp:s15 8.5174e+00 ;
+    wp:s20 3.845e+01 ;
+    wp:s21 2.31295e+01 ;
+    wp:s4 1.42577e+03 ;
+    wp:s7 5.5092e+02 .
+
+wp:obs_u1_c192 wp:cycle 192 ;
+    wp:observedItem wp:engine1 ;
+    wp:s11 4.825e+01 ;
+    wp:s12 5.2008e+02 ;
+    wp:s13 2.38832e+03 ;
+    wp:s15 8.5113e+00 ;
+    wp:s20 3.848e+01 ;
+    wp:s21 2.29649e+01 ;
+    wp:s4 1.4272e+03 ;
+    wp:s7 5.5125e+02 .
+
+wp:obs_u5_c245 wp:cycle 245 ;
+    wp:observedItem wp:engine5 ;
+    wp:s11 4.796e+01 ;
+    wp:s12 5.2054e+02 ;
+    wp:s13 2.38818e+03 ;
+    wp:s15 8.4866e+00 ;
+    wp:s20 3.868e+01 ;
+    wp:s21 2.32506e+01 ;
+    wp:s4 1.4218e+03 ;
+    wp:s7 5.5246e+02 .
+
+wp:obs_u5_c246 wp:cycle 246 ;
+    wp:observedItem wp:engine5 ;
+    wp:s11 4.779e+01 ;
+    wp:s12 5.2038e+02 ;
+    wp:s13 2.38812e+03 ;
+    wp:s15 8.4931e+00 ;
+    wp:s20 3.858e+01 ;
+    wp:s21 2.32279e+01 ;
+    wp:s4 1.42259e+03 ;
+    wp:s7 5.5252e+02 .
+
+wp:obs_u5_c247 wp:cycle 247 ;
+    wp:observedItem wp:engine5 ;
+    wp:s11 4.787e+01 ;
+    wp:s12 5.2001e+02 ;
+    wp:s13 2.38811e+03 ;
+    wp:s15 8.482e+00 ;
+    wp:s20 3.876e+01 ;
+    wp:s21 2.31255e+01 ;
+    wp:s4 1.41675e+03 ;
+    wp:s7 5.5186e+02 .
+
+wp:obs_u5_c248 wp:cycle 248 ;
+    wp:observedItem wp:engine5 ;
+    wp:s11 4.803e+01 ;
+    wp:s12 5.2051e+02 ;
+    wp:s13 2.3881e+03 ;
+    wp:s15 8.4656e+00 ;
+    wp:s20 3.86e+01 ;
+    wp:s21 2.3196e+01 ;
+    wp:s4 1.42262e+03 ;
+    wp:s7 5.5266e+02 .
+
+wp:obs_u5_c249 wp:cycle 249 ;
+    wp:observedItem wp:engine5 ;
+    wp:s11 4.79e+01 ;
+    wp:s12 5.2036e+02 ;
+    wp:s13 2.38813e+03 ;
+    wp:s15 8.5371e+00 ;
+    wp:s20 3.857e+01 ;
+    wp:s21 2.32299e+01 ;
+    wp:s4 1.42394e+03 ;
+    wp:s7 5.5198e+02 .
+
+wp:obs_u5_c250 wp:cycle 250 ;
+    wp:observedItem wp:engine5 ;
+    wp:s11 4.785e+01 ;
+    wp:s12 5.2057e+02 ;
+    wp:s13 2.38812e+03 ;
+    wp:s15 8.4391e+00 ;
+    wp:s20 3.855e+01 ;
+    wp:s21 2.30257e+01 ;
+    wp:s4 1.42552e+03 ;
+    wp:s7 5.5279e+02 .
+
+wp:obs_u5_c251 wp:cycle 251 ;
+    wp:observedItem wp:engine5 ;
+    wp:s11 4.772e+01 ;
+    wp:s12 5.2049e+02 ;
+    wp:s13 2.38816e+03 ;
+    wp:s15 8.4868e+00 ;
+    wp:s20 3.867e+01 ;
+    wp:s21 2.3125e+01 ;
+    wp:s4 1.42326e+03 ;
+    wp:s7 5.5147e+02 .
+
+wp:obs_u5_c252 wp:cycle 252 ;
+    wp:observedItem wp:engine5 ;
+    wp:s11 4.782e+01 ;
+    wp:s12 5.2042e+02 ;
+    wp:s13 2.3881e+03 ;
+    wp:s15 8.4737e+00 ;
+    wp:s20 3.861e+01 ;
+    wp:s21 2.3239e+01 ;
+    wp:s4 1.41915e+03 ;
+    wp:s7 5.5181e+02 .
+
+wp:obs_u5_c253 wp:cycle 253 ;
+    wp:observedItem wp:engine5 ;
+    wp:s11 4.808e+01 ;
+    wp:s12 5.2082e+02 ;
+    wp:s13 2.38816e+03 ;
+    wp:s15 8.509e+00 ;
+    wp:s20 3.848e+01 ;
+    wp:s21 2.31336e+01 ;
+    wp:s4 1.42322e+03 ;
+    wp:s7 5.5161e+02 .
+
+wp:obs_u5_c254 wp:cycle 254 ;
+    wp:observedItem wp:engine5 ;
+    wp:s11 4.785e+01 ;
+    wp:s12 5.2007e+02 ;
+    wp:s13 2.38818e+03 ;
+    wp:s15 8.516e+00 ;
+    wp:s20 3.838e+01 ;
+    wp:s21 2.30446e+01 ;
+    wp:s4 1.42436e+03 ;
+    wp:s7 5.5148e+02 .
+
+wp:obs_u5_c255 wp:cycle 255 ;
+    wp:observedItem wp:engine5 ;
+    wp:s11 4.819e+01 ;
+    wp:s12 5.2038e+02 ;
+    wp:s13 2.38816e+03 ;
+    wp:s15 8.4968e+00 ;
+    wp:s20 3.867e+01 ;
+    wp:s21 2.32145e+01 ;
+    wp:s4 1.42803e+03 ;
+    wp:s7 5.5173e+02 .
+
+wp:obs_u5_c256 wp:cycle 256 ;
+    wp:observedItem wp:engine5 ;
+    wp:s11 4.782e+01 ;
+    wp:s12 5.2046e+02 ;
+    wp:s13 2.38809e+03 ;
+    wp:s15 8.5036e+00 ;
+    wp:s20 3.849e+01 ;
+    wp:s21 2.30656e+01 ;
+    wp:s4 1.43189e+03 ;
+    wp:s7 5.514e+02 .
+
+wp:obs_u5_c257 wp:cycle 257 ;
+    wp:observedItem wp:engine5 ;
+    wp:s11 4.827e+01 ;
+    wp:s12 5.1988e+02 ;
+    wp:s13 2.38816e+03 ;
+    wp:s15 8.5263e+00 ;
+    wp:s20 3.861e+01 ;
+    wp:s21 2.32326e+01 ;
+    wp:s4 1.42427e+03 ;
+    wp:s7 5.5221e+02 .
+
+wp:obs_u5_c258 wp:cycle 258 ;
+    wp:observedItem wp:engine5 ;
+    wp:s11 4.806e+01 ;
+    wp:s12 5.2059e+02 ;
+    wp:s13 2.38811e+03 ;
+    wp:s15 8.5105e+00 ;
+    wp:s20 3.84e+01 ;
+    wp:s21 2.31169e+01 ;
+    wp:s4 1.42769e+03 ;
+    wp:s7 5.525e+02 .
+
+wp:obs_u5_c259 wp:cycle 259 ;
+    wp:observedItem wp:engine5 ;
+    wp:s11 4.805e+01 ;
+    wp:s12 5.2012e+02 ;
+    wp:s13 2.38815e+03 ;
+    wp:s15 8.539e+00 ;
+    wp:s20 3.834e+01 ;
+    wp:s21 2.30195e+01 ;
+    wp:s4 1.42014e+03 ;
+    wp:s7 5.5142e+02 .
+
+wp:obs_u5_c260 wp:cycle 260 ;
+    wp:observedItem wp:engine5 ;
+    wp:s11 4.796e+01 ;
+    wp:s12 5.2006e+02 ;
+    wp:s13 2.38811e+03 ;
+    wp:s15 8.4948e+00 ;
+    wp:s20 3.874e+01 ;
+    wp:s21 2.31449e+01 ;
+    wp:s4 1.42528e+03 ;
+    wp:s7 5.5224e+02 .
+
+wp:obs_u5_c261 wp:cycle 261 ;
+    wp:observedItem wp:engine5 ;
+    wp:s11 4.813e+01 ;
+    wp:s12 5.2063e+02 ;
+    wp:s13 2.38814e+03 ;
+    wp:s15 8.495e+00 ;
+    wp:s20 3.852e+01 ;
+    wp:s21 2.31152e+01 ;
+    wp:s4 1.42113e+03 ;
+    wp:s7 5.5207e+02 .
+
+wp:obs_u5_c262 wp:cycle 262 ;
+    wp:observedItem wp:engine5 ;
+    wp:s11 4.786e+01 ;
+    wp:s12 5.1995e+02 ;
+    wp:s13 2.38823e+03 ;
+    wp:s15 8.4983e+00 ;
+    wp:s20 3.854e+01 ;
+    wp:s21 2.30929e+01 ;
+    wp:s4 1.42481e+03 ;
+    wp:s7 5.5249e+02 .
+
+wp:obs_u5_c263 wp:cycle 263 ;
+    wp:observedItem wp:engine5 ;
+    wp:s11 4.804e+01 ;
+    wp:s12 5.2005e+02 ;
+    wp:s13 2.38815e+03 ;
+    wp:s15 8.5201e+00 ;
+    wp:s20 3.842e+01 ;
+    wp:s21 2.31361e+01 ;
+    wp:s4 1.42115e+03 ;
+    wp:s7 5.5157e+02 .
+
+wp:obs_u5_c264 wp:cycle 264 ;
+    wp:observedItem wp:engine5 ;
+    wp:s11 4.826e+01 ;
+    wp:s12 5.1983e+02 ;
+    wp:s13 2.38819e+03 ;
+    wp:s15 8.5297e+00 ;
+    wp:s20 3.837e+01 ;
+    wp:s21 2.31132e+01 ;
+    wp:s4 1.42539e+03 ;
+    wp:s7 5.517e+02 .
+
+wp:obs_u5_c265 wp:cycle 265 ;
+    wp:observedItem wp:engine5 ;
+    wp:s11 4.803e+01 ;
+    wp:s12 5.198e+02 ;
+    wp:s13 2.3881e+03 ;
+    wp:s15 8.541e+00 ;
+    wp:s20 3.835e+01 ;
+    wp:s21 2.30857e+01 ;
+    wp:s4 1.42457e+03 ;
+    wp:s7 5.5137e+02 .
+
+wp:obs_u5_c266 wp:cycle 266 ;
+    wp:observedItem wp:engine5 ;
+    wp:s11 4.824e+01 ;
+    wp:s12 5.1957e+02 ;
+    wp:s13 2.38814e+03 ;
+    wp:s15 8.5254e+00 ;
+    wp:s20 3.855e+01 ;
+    wp:s21 2.31621e+01 ;
+    wp:s4 1.4344e+03 ;
+    wp:s7 5.5235e+02 .
+
+wp:obs_u5_c267 wp:cycle 267 ;
+    wp:observedItem wp:engine5 ;
+    wp:s11 4.826e+01 ;
+    wp:s12 5.1966e+02 ;
+    wp:s13 2.38817e+03 ;
+    wp:s15 8.5292e+00 ;
+    wp:s20 3.849e+01 ;
+    wp:s21 2.30566e+01 ;
+    wp:s4 1.43025e+03 ;
+    wp:s7 5.5155e+02 .
+
+wp:obs_u5_c268 wp:cycle 268 ;
+    wp:observedItem wp:engine5 ;
+    wp:s11 4.815e+01 ;
+    wp:s12 5.201e+02 ;
+    wp:s13 2.38814e+03 ;
+    wp:s15 8.5196e+00 ;
+    wp:s20 3.852e+01 ;
+    wp:s21 2.3118e+01 ;
+    wp:s4 1.43459e+03 ;
+    wp:s7 5.5222e+02 .
+
+wp:obs_u5_c269 wp:cycle 269 ;
+    wp:observedItem wp:engine5 ;
+    wp:s11 4.826e+01 ;
+    wp:s12 5.1986e+02 ;
+    wp:s13 2.38816e+03 ;
+    wp:s15 8.5209e+00 ;
+    wp:s20 3.845e+01 ;
+    wp:s21 2.30296e+01 ;
+    wp:s4 1.43074e+03 ;
+    wp:s7 5.5077e+02 .
+
+wp:engine1 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+
+wp:engine5 a <https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem> .
+

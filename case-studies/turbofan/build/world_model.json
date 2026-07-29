@@ -1,0 +1,334 @@
+{
+  "name": "worldproof-cmapss-fd001-v0.1",
+  "grounding": {
+    "ontologies": [
+      {
+        "iri": "https://spec.industrialontologies.org/ontology/core/Core/",
+        "sha256": "a653bcacef50a241aa1696d0d647b60527497cb1f32726f1891a05cbe5cb7638"
+      },
+      {
+        "iri": "https://spec.industrialontologies.org/ontology/maintenance/Maintenance/",
+        "sha256": "1ac077a3f5fccc7510967aab2f8427c2151d00673fd3cbe9f8b45da8b2ed2f97"
+      }
+    ],
+    "dataset": {
+      "name": "NASA C-MAPSS FD001 (PCoE; Saxena & Goebel 2008)",
+      "engines": 100,
+      "cycles": 20631,
+      "sha256_train": "963b5e22825b34d8b21c69e1aeb4af3e647050eb672ee8834ba4b5d91d2de0f8",
+      "sha256_test": "3cda7109ce17bafb5443f2ac926cfcf88154b941b8c4cf95eb55d1ddd6f52851",
+      "sha256_rul": "a19c8ec94931949d0485bdc35118206e9c81c4547b422efb9cf86f4ceddbceca"
+    },
+    "vocabulary": {
+      "MaintainableMaterialItem": {
+        "iri": "https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem",
+        "label": "maintainable material item"
+      },
+      "DegradedState": {
+        "iri": "https://spec.industrialontologies.org/ontology/construct/DegradedState",
+        "label": "degraded state"
+      },
+      "FailedState": {
+        "iri": "https://spec.industrialontologies.org/ontology/construct/FailedState",
+        "label": "failed state"
+      },
+      "FailureEvent": {
+        "iri": "https://spec.industrialontologies.org/ontology/construct/FailureEvent",
+        "label": "failure event"
+      },
+      "FailureProcess": {
+        "iri": "https://spec.industrialontologies.org/ontology/construct/FailureProcess",
+        "label": "failure process"
+      },
+      "MaintenanceActivity": {
+        "iri": "https://spec.industrialontologies.org/ontology/construct/MaintenanceActivity",
+        "label": "maintenance activity"
+      },
+      "MaintenanceProcess": {
+        "iri": "https://spec.industrialontologies.org/ontology/construct/MaintenanceProcess",
+        "label": "maintenance process"
+      },
+      "OperatingState": {
+        "iri": "https://spec.industrialontologies.org/ontology/construct/OperatingState",
+        "label": "operating state"
+      }
+    }
+  },
+  "split": {
+    "seed": 20261028,
+    "calibration_units": [
+      2,
+      3,
+      4,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      29,
+      31,
+      32,
+      33,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      54,
+      55,
+      56,
+      57,
+      58,
+      61,
+      62,
+      63,
+      65,
+      66,
+      67,
+      68,
+      69,
+      71,
+      73,
+      74,
+      76,
+      78,
+      79,
+      84,
+      87,
+      90,
+      95,
+      97,
+      98,
+      99,
+      100
+    ],
+    "holdout_units": [
+      1,
+      5,
+      6,
+      19,
+      27,
+      28,
+      30,
+      34,
+      46,
+      53,
+      59,
+      60,
+      64,
+      70,
+      72,
+      75,
+      77,
+      80,
+      81,
+      82,
+      83,
+      85,
+      86,
+      88,
+      89,
+      91,
+      92,
+      93,
+      94,
+      96
+    ]
+  },
+  "sensor_selection": {
+    "method": "mean per-engine Spearman rho(sensor, cycle) on calibration split",
+    "rho_by_sensor": {
+      "s1": 0.0,
+      "s2": 0.658,
+      "s3": 0.626,
+      "s4": 0.77,
+      "s5": 0.0,
+      "s6": 0.0843,
+      "s7": -0.7439,
+      "s8": 0.6638,
+      "s9": 0.4186,
+      "s10": 0.0,
+      "s11": 0.8096,
+      "s12": -0.7801,
+      "s13": 0.6707,
+      "s14": 0.2571,
+      "s15": 0.7124,
+      "s16": 0.0,
+      "s17": 0.6625,
+      "s18": 0.0,
+      "s19": 0.0,
+      "s20": -0.6994,
+      "s21": -0.7011
+    },
+    "selected": [
+      "s11",
+      "s12",
+      "s4",
+      "s7",
+      "s15",
+      "s21",
+      "s20",
+      "s13"
+    ]
+  },
+  "state_space": {
+    "engine_id": {
+      "type": "identifier",
+      "iof_type": "https://spec.industrialontologies.org/ontology/construct/MaintainableMaterialItem"
+    },
+    "cycle": {
+      "type": "int",
+      "min": 1
+    },
+    "s11": {
+      "type": "float",
+      "min": 46.8164,
+      "max": 48.5636
+    },
+    "s12": {
+      "type": "float",
+      "min": 518.5962,
+      "max": 523.4738
+    },
+    "s4": {
+      "type": "float",
+      "min": 1381.1158,
+      "max": 1440.0942
+    },
+    "s7": {
+      "type": "float",
+      "min": 549.7258,
+      "max": 556.1842
+    },
+    "s15": {
+      "type": "float",
+      "min": 8.3197,
+      "max": 8.59
+    },
+    "s21": {
+      "type": "float",
+      "min": 22.893,
+      "max": 23.6268
+    },
+    "s20": {
+      "type": "float",
+      "min": 38.1142,
+      "max": 39.4558
+    },
+    "s13": {
+      "type": "float",
+      "min": 2387.8664,
+      "max": 2388.5736
+    }
+  },
+  "health_index": {
+    "sensors": [
+      "s11",
+      "s12",
+      "s4",
+      "s7",
+      "s15",
+      "s21",
+      "s20",
+      "s13"
+    ],
+    "orientation": {
+      "s11": 1,
+      "s12": -1,
+      "s4": 1,
+      "s7": -1,
+      "s15": 1,
+      "s21": -1,
+      "s20": -1,
+      "s13": 1
+    },
+    "z_stats": {
+      "s11": {
+        "mu": 47.5413,
+        "sd": 0.2676
+      },
+      "s12": {
+        "mu": 521.4146,
+        "sd": 0.7381
+      },
+      "s4": {
+        "mu": 1408.9592,
+        "sd": 9.0155
+      },
+      "s7": {
+        "mu": 553.3681,
+        "sd": 0.8872
+      },
+      "s15": {
+        "mu": 8.4424,
+        "sd": 0.0377
+      },
+      "s21": {
+        "mu": 23.2892,
+        "sd": 0.1084
+      },
+      "s20": {
+        "mu": 38.8161,
+        "sd": 0.1813
+      },
+      "s13": {
+        "mu": 2388.0953,
+        "sd": 0.0722
+      }
+    },
+    "smoothing": "trailing 5-cycle mean (causal)",
+    "threshold": 0.8766,
+    "calibration_fit": {
+      "theta": 0.8766,
+      "f1": 0.8146,
+      "precision": 0.8112,
+      "recall": 0.818,
+      "n_cycles": 14191,
+      "positives": 2170
+    }
+  },
+  "invariants": {
+    "EOL30": {
+      "text": "engine within 30 cycles of failure iff health index >= 0.8766",
+      "semantics": "hazard_window",
+      "provenance": "learned",
+      "iof_type": "https://spec.industrialontologies.org/ontology/construct/FailureEvent"
+    },
+    "CYCLE_MONOTONE": {
+      "text": "cycle counter strictly increasing by 1 per engine, from 1",
+      "semantics": "deterministic",
+      "provenance": "structural"
+    },
+    "SENSOR_RANGE": {
+      "text": "selected sensors within compiled calibration ranges",
+      "semantics": "deterministic",
+      "provenance": "compiled percentile ranges"
+    }
+  }
+}

@@ -1,0 +1,557 @@
+[
+  {
+    "claim": {
+      "engine": 1,
+      "cycle": 179,
+      "assertion": "within 30 cycles of failure"
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "engine_resolves": true,
+        "cycle_in_record": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": false
+      }
+    ],
+    "verdict": "refuted",
+    "world_model_sha256": "d2cac582bc404296b3f462c0d589ec3f8d460fc2c71d5a713c6998376752ee5c",
+    "latency_ms": 0.0109
+  },
+  {
+    "claim": {
+      "engine": 1,
+      "cycle": 179,
+      "assertion": "within 30 cycles of failure"
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "engine_resolves": true,
+        "cycle_in_record": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": true
+      },
+      {
+        "layer": "L3-invariant",
+        "invariant": "EOL30",
+        "invariant_fired": true,
+        "semantics": "hazard_window",
+        "pass": true
+      }
+    ],
+    "verdict": "plausible",
+    "world_model_sha256": "d2cac582bc404296b3f462c0d589ec3f8d460fc2c71d5a713c6998376752ee5c",
+    "latency_ms": 0.1556
+  },
+  {
+    "claim": {
+      "engine": 1,
+      "cycle": 170,
+      "assertion": "within 30 cycles of failure"
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "engine_resolves": true,
+        "cycle_in_record": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": true
+      },
+      {
+        "layer": "L3-invariant",
+        "invariant": "EOL30",
+        "invariant_fired": true,
+        "semantics": "hazard_window",
+        "pass": true
+      }
+    ],
+    "verdict": "plausible",
+    "world_model_sha256": "d2cac582bc404296b3f462c0d589ec3f8d460fc2c71d5a713c6998376752ee5c",
+    "latency_ms": 0.131
+  },
+  {
+    "claim": {
+      "engine": 1,
+      "cycle": 169,
+      "assertion": "within 30 cycles of failure"
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "engine_resolves": true,
+        "cycle_in_record": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": true
+      },
+      {
+        "layer": "L3-invariant",
+        "invariant": "EOL30",
+        "invariant_fired": true,
+        "semantics": "hazard_window",
+        "pass": true
+      }
+    ],
+    "verdict": "plausible",
+    "world_model_sha256": "d2cac582bc404296b3f462c0d589ec3f8d460fc2c71d5a713c6998376752ee5c",
+    "latency_ms": 0.1273
+  },
+  {
+    "claim": {
+      "engine": 1,
+      "cycle": 150,
+      "assertion": "within 30 cycles of failure"
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "engine_resolves": true,
+        "cycle_in_record": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": true
+      },
+      {
+        "layer": "L3-invariant",
+        "invariant": "EOL30",
+        "invariant_fired": false,
+        "semantics": "hazard_window",
+        "pass": false
+      }
+    ],
+    "verdict": "refuted",
+    "world_model_sha256": "d2cac582bc404296b3f462c0d589ec3f8d460fc2c71d5a713c6998376752ee5c",
+    "latency_ms": 0.1136
+  },
+  {
+    "claim": {
+      "engine": 1,
+      "cycle": 9,
+      "assertion": "within 30 cycles of failure"
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "engine_resolves": true,
+        "cycle_in_record": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": true
+      },
+      {
+        "layer": "L3-invariant",
+        "invariant": "EOL30",
+        "invariant_fired": false,
+        "semantics": "hazard_window",
+        "pass": false
+      }
+    ],
+    "verdict": "refuted",
+    "world_model_sha256": "d2cac582bc404296b3f462c0d589ec3f8d460fc2c71d5a713c6998376752ee5c",
+    "latency_ms": 0.0092
+  },
+  {
+    "claim": {
+      "engine": 1,
+      "cycle": 55,
+      "assertion": "within 30 cycles of failure"
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "engine_resolves": true,
+        "cycle_in_record": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": true
+      },
+      {
+        "layer": "L3-invariant",
+        "invariant": "EOL30",
+        "invariant_fired": false,
+        "semantics": "hazard_window",
+        "pass": false
+      }
+    ],
+    "verdict": "refuted",
+    "world_model_sha256": "d2cac582bc404296b3f462c0d589ec3f8d460fc2c71d5a713c6998376752ee5c",
+    "latency_ms": 0.043
+  },
+  {
+    "claim": {
+      "engine": 1,
+      "cycle": 173,
+      "assertion": "within 30 cycles of failure"
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "engine_resolves": true,
+        "cycle_in_record": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": true
+      },
+      {
+        "layer": "L3-invariant",
+        "invariant": "EOL30",
+        "invariant_fired": true,
+        "semantics": "hazard_window",
+        "pass": true
+      }
+    ],
+    "verdict": "plausible",
+    "world_model_sha256": "d2cac582bc404296b3f462c0d589ec3f8d460fc2c71d5a713c6998376752ee5c",
+    "latency_ms": 0.1286
+  },
+  {
+    "claim": {
+      "engine": 1,
+      "cycle": 55,
+      "assertion": "within 30 cycles of failure"
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "engine_resolves": true,
+        "cycle_in_record": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": true
+      },
+      {
+        "layer": "L3-invariant",
+        "invariant": "EOL30",
+        "invariant_fired": false,
+        "semantics": "hazard_window",
+        "pass": false
+      }
+    ],
+    "verdict": "refuted",
+    "world_model_sha256": "d2cac582bc404296b3f462c0d589ec3f8d460fc2c71d5a713c6998376752ee5c",
+    "latency_ms": 0.043
+  },
+  {
+    "claim": {
+      "engine": 1,
+      "cycle": 181,
+      "assertion": "within 30 cycles of failure"
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "engine_resolves": true,
+        "cycle_in_record": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": true
+      },
+      {
+        "layer": "L3-invariant",
+        "invariant": "EOL30",
+        "invariant_fired": true,
+        "semantics": "hazard_window",
+        "pass": true
+      }
+    ],
+    "verdict": "plausible",
+    "world_model_sha256": "d2cac582bc404296b3f462c0d589ec3f8d460fc2c71d5a713c6998376752ee5c",
+    "latency_ms": 0.1392
+  },
+  {
+    "claim": {
+      "engine": 5,
+      "cycle": 265,
+      "assertion": "within 30 cycles of failure"
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "engine_resolves": true,
+        "cycle_in_record": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": false
+      }
+    ],
+    "verdict": "refuted",
+    "world_model_sha256": "d2cac582bc404296b3f462c0d589ec3f8d460fc2c71d5a713c6998376752ee5c",
+    "latency_ms": 0.0022
+  },
+  {
+    "claim": {
+      "engine": 5,
+      "cycle": 125,
+      "assertion": "within 30 cycles of failure"
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "engine_resolves": true,
+        "cycle_in_record": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": true
+      },
+      {
+        "layer": "L3-invariant",
+        "invariant": "EOL30",
+        "invariant_fired": false,
+        "semantics": "hazard_window",
+        "pass": false
+      }
+    ],
+    "verdict": "refuted",
+    "world_model_sha256": "d2cac582bc404296b3f462c0d589ec3f8d460fc2c71d5a713c6998376752ee5c",
+    "latency_ms": 0.099
+  },
+  {
+    "claim": {
+      "engine": 5,
+      "cycle": 268,
+      "assertion": "within 30 cycles of failure"
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "engine_resolves": true,
+        "cycle_in_record": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": true
+      },
+      {
+        "layer": "L3-invariant",
+        "invariant": "EOL30",
+        "invariant_fired": true,
+        "semantics": "hazard_window",
+        "pass": true
+      }
+    ],
+    "verdict": "plausible",
+    "world_model_sha256": "d2cac582bc404296b3f462c0d589ec3f8d460fc2c71d5a713c6998376752ee5c",
+    "latency_ms": 0.2049
+  },
+  {
+    "claim": {
+      "engine": 5,
+      "cycle": 243,
+      "assertion": "within 30 cycles of failure"
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "engine_resolves": true,
+        "cycle_in_record": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": true
+      },
+      {
+        "layer": "L3-invariant",
+        "invariant": "EOL30",
+        "invariant_fired": false,
+        "semantics": "hazard_window",
+        "pass": false
+      }
+    ],
+    "verdict": "refuted",
+    "world_model_sha256": "d2cac582bc404296b3f462c0d589ec3f8d460fc2c71d5a713c6998376752ee5c",
+    "latency_ms": 0.1827
+  },
+  {
+    "claim": {
+      "engine": 5,
+      "cycle": 243,
+      "assertion": "within 30 cycles of failure"
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "engine_resolves": true,
+        "cycle_in_record": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": true
+      },
+      {
+        "layer": "L3-invariant",
+        "invariant": "EOL30",
+        "invariant_fired": false,
+        "semantics": "hazard_window",
+        "pass": false
+      }
+    ],
+    "verdict": "refuted",
+    "world_model_sha256": "d2cac582bc404296b3f462c0d589ec3f8d460fc2c71d5a713c6998376752ee5c",
+    "latency_ms": 0.1788
+  },
+  {
+    "claim": {
+      "engine": 5,
+      "cycle": 294,
+      "assertion": "within 30 cycles of failure"
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "engine_resolves": true,
+        "cycle_in_record": false,
+        "pass": false
+      }
+    ],
+    "verdict": "refuted",
+    "world_model_sha256": "d2cac582bc404296b3f462c0d589ec3f8d460fc2c71d5a713c6998376752ee5c",
+    "latency_ms": 0.0003
+  },
+  {
+    "claim": {
+      "engine": 5,
+      "cycle": 246,
+      "assertion": "within 30 cycles of failure"
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "engine_resolves": true,
+        "cycle_in_record": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": true
+      },
+      {
+        "layer": "L3-invariant",
+        "invariant": "EOL30",
+        "invariant_fired": true,
+        "semantics": "hazard_window",
+        "pass": true
+      }
+    ],
+    "verdict": "plausible",
+    "world_model_sha256": "d2cac582bc404296b3f462c0d589ec3f8d460fc2c71d5a713c6998376752ee5c",
+    "latency_ms": 0.181
+  },
+  {
+    "claim": {
+      "engine": 5,
+      "cycle": 259,
+      "assertion": "within 30 cycles of failure"
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "engine_resolves": true,
+        "cycle_in_record": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": true
+      },
+      {
+        "layer": "L3-invariant",
+        "invariant": "EOL30",
+        "invariant_fired": true,
+        "semantics": "hazard_window",
+        "pass": true
+      }
+    ],
+    "verdict": "plausible",
+    "world_model_sha256": "d2cac582bc404296b3f462c0d589ec3f8d460fc2c71d5a713c6998376752ee5c",
+    "latency_ms": 0.1901
+  },
+  {
+    "claim": {
+      "engine": 5,
+      "cycle": 261,
+      "assertion": "within 30 cycles of failure"
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "engine_resolves": true,
+        "cycle_in_record": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": true
+      },
+      {
+        "layer": "L3-invariant",
+        "invariant": "EOL30",
+        "invariant_fired": true,
+        "semantics": "hazard_window",
+        "pass": true
+      }
+    ],
+    "verdict": "plausible",
+    "world_model_sha256": "d2cac582bc404296b3f462c0d589ec3f8d460fc2c71d5a713c6998376752ee5c",
+    "latency_ms": 0.1967
+  },
+  {
+    "claim": {
+      "engine": 5,
+      "cycle": 244,
+      "assertion": "within 30 cycles of failure"
+    },
+    "checks": [
+      {
+        "layer": "L1-grounding",
+        "engine_resolves": true,
+        "cycle_in_record": true,
+        "pass": true
+      },
+      {
+        "layer": "L2-conformance",
+        "pass": true
+      },
+      {
+        "layer": "L3-invariant",
+        "invariant": "EOL30",
+        "invariant_fired": true,
+        "semantics": "hazard_window",
+        "pass": true
+      }
+    ],
+    "verdict": "plausible",
+    "world_model_sha256": "d2cac582bc404296b3f462c0d589ec3f8d460fc2c71d5a713c6998376752ee5c",
+    "latency_ms": 0.1819
+  }
+]

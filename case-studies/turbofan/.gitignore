@@ -1,0 +1,4 @@
+sources/*.zip
+sources/*.txt
+sources/*.pdf
+__pycache__/
