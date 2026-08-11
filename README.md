@@ -1,5 +1,7 @@
 # WORLDPROOF
 
+[![Sponsor](https://img.shields.io/github/sponsors/fabio-rovai?label=Sponsor&logo=GitHub%20Sponsors&logoColor=EA4AAA&color=EA4AAA)](https://github.com/sponsors/fabio-rovai)
+
 **Compile an ontology and a dataset into an executable world model whose every
 inference and every plan carries a machine-checkable certificate.**
 
@@ -127,3 +129,9 @@ Government). If your organisation needs AI whose outputs can be *proved*
 grounded - not just monitored - write to
 **fabio@thetesseractacademy.com** or visit
 [gov.tesseract.academy](https://gov.tesseract.academy).
+
+---
+
+## Sponsor
+
+If this work is useful to you, you can support its continued development through [GitHub Sponsors](https://github.com/sponsors/fabio-rovai).
